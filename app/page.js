@@ -6,9 +6,9 @@ import Navbar from './components/Navbar';
 export default function Home() {
   return (
     <div className="min-h-screen relative overflow-hidden bg-gradient-to-b from-blue-300/40 via-stone-100 to-amber-50/30">
-      <header>
+      {/* <header>
         <Navbar />
-      </header>
+      </header> */}
       {/* Social Links - Left side */}
       <div className="absolute left-6 md:left-12 bottom-12 z-30 flex flex-col gap-6">
         <motion.a

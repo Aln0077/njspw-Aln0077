@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="min-h-screen p-8">
+    <div className="min-h-screen p-8 bg-gradient-to-b from-blue-300/40 via-stone-100 to-amber-50/30">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-5xl font-bold mb-8">About Me</h1>
         
