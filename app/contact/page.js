@@ -1,3 +1,4 @@
+import Link from 'next/link';
 export default function Contact() {
   return (
     <div className="min-h-screen p-8 bg-gradient-to-b from-blue-300/40 via-stone-100 to-amber-50/30">
@@ -22,7 +23,7 @@ export default function Contact() {
               <span className="text-3xl">🔗</span>
               <div>
                 <p className="font-bold text-gray-900">LinkedIn</p>
-                <a href="https://www.linkedin.com/in/alan-perez-28b313319/" className="text-blue-500 hover:underline">
+                <a href="https://www.linkedin.com/in/alan-perez-28b313319/" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
                   linkedin.com/in/alan-perez
                 </a>
               </div>
@@ -32,7 +33,7 @@ export default function Contact() {
               <span className="text-3xl">💻</span>
               <div>
                 <p className="font-bold text-gray-900">GitHub</p>
-                <a href="https://github.com/Aln0077" className="text-blue-500 hover:underline">
+                <a href="https://github.com/Aln0077" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
                   github.com/alan-perez
                 </a>
                 <p className="text-sm text-blue-600">✏️ TODO: Add your GitHub URL</p>
