@@ -1,8 +1,8 @@
 export default function Contact() {
   return (
-    <div className="min-h-screen p-8">
+    <div className="min-h-screen p-8 bg-gradient-to-b from-blue-300/40 via-stone-100 to-amber-50/30">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-5xl font-bold mb-12">Get In Touch</h1>
+        <h1 className="text-5xl text-gray-700 font-bold mb-12">Get In Touch</h1>
         
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
           <p className="text-xl text-gray-700 mb-8">
@@ -14,8 +14,7 @@ export default function Contact() {
               <span className="text-3xl">📧</span>
               <div>
                 <p className="font-bold text-gray-900">Email</p>
-                <p className="text-gray-600">your.email@example.com</p>
-                <p className="text-sm text-blue-600">✏️ TODO: Add your actual email</p>
+                <p className="text-gray-600">apere0103@exlaunchpadphilly.org</p>
               </div>
             </div>
 
@@ -23,10 +22,9 @@ export default function Contact() {
               <span className="text-3xl">🔗</span>
               <div>
                 <p className="font-bold text-gray-900">LinkedIn</p>
-                <a href="#" className="text-blue-500 hover:underline">
-                  linkedin.com/in/yourname
+                <a href="https://www.linkedin.com/in/alan-perez-28b313319/" className="text-blue-500 hover:underline">
+                  linkedin.com/in/alan-perez
                 </a>
-                <p className="text-sm text-blue-600">✏️ TODO: Add your LinkedIn URL</p>
               </div>
             </div>
 
@@ -34,8 +32,8 @@ export default function Contact() {
               <span className="text-3xl">💻</span>
               <div>
                 <p className="font-bold text-gray-900">GitHub</p>
-                <a href="#" className="text-blue-500 hover:underline">
-                  github.com/yourname
+                <a href="https://github.com/Aln0077" className="text-blue-500 hover:underline">
+                  github.com/alan-perez
                 </a>
                 <p className="text-sm text-blue-600">✏️ TODO: Add your GitHub URL</p>
               </div>
